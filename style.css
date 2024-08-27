@@ -1,4 +1,12 @@
-*{
-    padding:0;
-    margin: 0;
+
+.container, .container-fluid, footer{
+    margin: 20px 0px 20px 0px;
+    align-items: center;
+}
+
+@media(max-width:575px)
+{
+    h1, #carusel, ul, ol, footer{
+        text-align: center;
+    }
 }
